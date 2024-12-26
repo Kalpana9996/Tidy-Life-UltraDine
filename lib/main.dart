@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ultradine/screens/login.dart';
+import 'package:ultradine/screens/bottom_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Login(),
+      home: MainPage(),
     );
   }
 }
